@@ -6,15 +6,15 @@ The `rbenv-installer` script idempotently installs or updates rbenv on your
 system. If Homebrew is detected, installation will proceed using `brew
 install/upgrade`. Otherwise, rbenv is installed under `~/.rbenv`.
 
-Additionally, [ruby-build](https://github.com/rbenv/ruby-build#readme) is also
+Additionally, [ruby-build](https://github.com/geekgit/ruby-build#readme) is also
 installed if `rbenv install` is not already available.
 
 ```sh
 # with curl
-curl -fsSL https://github.com/rbenv/rbenv-installer/raw/HEAD/bin/rbenv-installer | bash
+curl -fsSL https://github.com/geekgit/rbenv-installer/raw/HEAD/bin/rbenv-installer | bash
 
 # alternatively, with wget
-wget -q https://github.com/rbenv/rbenv-installer/raw/HEAD/bin/rbenv-installer -O- | bash
+wget -q https://github.com/geekgit/rbenv-installer/raw/HEAD/bin/rbenv-installer -O- | bash
 ```
 
 The installer script is meant for casual use on your own development machine.
@@ -30,8 +30,8 @@ You can verify the state of your rbenv installation with:
 
 ```sh
 # with curl
-curl -fsSL https://github.com/rbenv/rbenv-installer/raw/HEAD/bin/rbenv-doctor | bash
+curl -fsSL https://github.com/geekgit/rbenv-installer/raw/HEAD/bin/rbenv-doctor | bash
 
 # alternatively, with wget
-wget -q https://github.com/rbenv/rbenv-installer/raw/HEAD/bin/rbenv-doctor -O- | bash
+wget -q https://github.com/geekgit/rbenv-installer/raw/HEAD/bin/rbenv-doctor -O- | bash
 ```
